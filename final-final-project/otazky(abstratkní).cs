@@ -14,6 +14,6 @@
         
         public virtual void Display()
         {
-            Console.WriteLine($"\n❓ {Text}");
+            Console.WriteLine($"\n ? {Text}");
         }
     }
