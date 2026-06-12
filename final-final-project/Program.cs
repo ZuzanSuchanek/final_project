@@ -14,5 +14,5 @@ List<Question> otazky = new List<Question>
         new[] { "Raichu", "Pichu", "Jolteon", "Electabuzz" }, "A", 10),
 };
 
-Quiz quiz = new Quiz("Pokémon Kvíz");
+Quiz quiz = new Quiz("PoKeMoN TrIvIa [EASY]");
 quiz.Start(player, otazky);
