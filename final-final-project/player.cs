@@ -13,35 +13,4 @@ public class Player
     {
         Score += points;
     }
- 
-    public void ShowResult(int totalPoints)
-    {
-        Console.WriteLine($"\n=============================");
-        Console.WriteLine($"  Hráč: {Name}");
-        Console.WriteLine($"  Skóre: {Score} / {totalPoints} bodů");
- 
-        double percentage = (double)Score / totalPoints * 100;
-        string rank;
-        
-        if (percentage >= 80)
-        {
-            rank = "diamond rank";
-        }
-        else if (percentage >= 60)
-        {
-            rank = "gold rank";
-        }
-        else if (percentage >= 40)
-        {
-            rank = "silver rank";
-        }
-        else
-        {
-            rank = "Bronze rank";
-        }
-
- 
-        Console.WriteLine($"  Hodnocení: {rank}");
-        Console.WriteLine($"=============================\n");
-    }
 }
