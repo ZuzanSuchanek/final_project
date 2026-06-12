@@ -1,5 +1,5 @@
 ﻿Console.Write("Zadej jméno: ");
-string name = Console.ReadLine() ?? "Trenér";
+string name = Console.ReadLine();
 Player player = new Player(name);
 
 List<Question> otazky = new List<Question>
